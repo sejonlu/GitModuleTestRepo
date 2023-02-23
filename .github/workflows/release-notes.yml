@@ -1,0 +1,37 @@
+name: Generate Release Notes
+on:
+  workflow_dispatch:
+
+  release:
+    types: [ published ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Update release description
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const release = context.payload.release
+            const commits = await github.repos.listCommits({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha: release.target_commitish,
+              per_page: 100
+            })
+            const commitMessages = commits.data.slice(0, release.assets.length).map((commit) => {
+              const title = `**${commit.commit.message.split("\n")[0]}**`
+              const description = commit.commit.message.replace(title, "").trim()
+              return `${title}\n${description}\n`
+            }).join("\n")
+            const releaseDate = new Date(release.published_at).toISOString().slice(0, 10)
+            const newDescription = `${release.name}\n_${releaseDate}_\n${commitMessages}`
+            await github.repos.updateRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              release_id: release.id,
+              body: newDescription
+            })
