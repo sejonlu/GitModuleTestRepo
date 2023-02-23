@@ -22,9 +22,10 @@ jobs:
               sha: release.target_commitish,
               per_page: 100
             })
-            const commitMessages = commits.data.slice(0, release.assets.length).map((commit) => {
-              const title = `**${commit.commit.message.split("\n")[0]}**`
-              const description = commit.commit.message.replace(title, "").trim()
+            const commitMessages = commits.data.slice(0, release.total_commits_count).map((commit) => {
+              const split = commit.commit.message.split("\n")
+              const title = `**${split[0]}**`
+              const description = split.slice(1).join("\n").trim()
               return `${title}\n${description}\n`
             }).join("\n")
             const releaseDate = new Date(release.published_at).toISOString().slice(0, 10)
