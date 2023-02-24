@@ -37,7 +37,6 @@ jobs:
               head: release.tag_name
             }).then(response => response.data.commits).length
             console.log('commitsInRelease', commitsInRelease)
-            const commitsInRelease = 100
             while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
