@@ -24,6 +24,7 @@ jobs:
                 repo: context.repo.repo,
                 sha: release.target_commitish,
                 per_page: 100
+                page
               })
               commits.push(...apiResponse)
               if (apiResponse.data.length === 0 || apiResponse.data.length < 100) {
