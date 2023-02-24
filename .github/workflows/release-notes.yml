@@ -30,13 +30,14 @@ jobs:
             let page = 1
             console.log('context', context)
             console.log('release', release)
-            const commitsInRelease = await github.repos.compareCommits({
+            const comparedCommits = await github.repos.compareCommits({
               owner: context.repo.owner,
               repo: context.repo.repo,
               base: '9.99999',
               head: release.tag_name
             }).then(response => response.data.commits).length
-            console.log('commitsInRelease', commitsInRelease)
+            console.log('comparedCommits', comparedCommits)
+            const commitsInRelease = 10
             while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
