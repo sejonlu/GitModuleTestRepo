@@ -18,7 +18,7 @@ jobs:
             const release = context.payload.release
             const commits = []
             let page = 1
-            const maxCommits = 300;
+            const maxCommits = 300
             while (commits.length < maxCommits) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
