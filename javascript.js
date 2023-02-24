@@ -52,6 +52,6 @@ const commitMessages = commits.data.slice(0, release.total_commits_count)
     return `${title}\n${description}\n`
   }).join("\n")
 const releaseDate = new Date(release.published_at).toISOString().slice(0, 10)
-const newDescription = `${release.name}\n_${releaseDate}_\n${commitMessages}`
+const newDescription = `## ${release.name}\n_${releaseDate}_\n${commitMessages}`.trim()
 
 console.log(newDescription)

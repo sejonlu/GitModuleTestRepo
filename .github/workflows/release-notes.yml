@@ -22,14 +22,16 @@ jobs:
               sha: release.target_commitish,
               per_page: 100
             })
-            const commitMessages = commits.data.slice(0, release.total_commits_count).map((commit) => {
-              const split = commit.commit.message.split("\n")
-              const title = `**${split[0]}**`
-              const description = split.slice(1).join("\n").trim()
-              return `${title}\n${description}\n`
+            const commitMessages = commits.data.slice(0, release.total_commits_count)
+              .reverse()
+              .map((commit) => {
+                const split = commit.commit.message.split("\n")
+                const title = `**${split[0].replace(/\(#\d+\)/g, '').trim()}**`
+                const description = split.slice(1).join("\n").trim()
+                return `${title}\n${description}\n`
             }).join("\n")
             const releaseDate = new Date(release.published_at).toISOString().slice(0, 10)
-            const newDescription = `_${releaseDate}_\n${commitMessages}`
+            const newDescription = `## ${release.name}\n_${releaseDate}_\n${commitMessages}`.trim()
             await github.repos.updateRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
