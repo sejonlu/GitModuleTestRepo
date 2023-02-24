@@ -23,27 +23,26 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo
             })
+            console.log('releases', releases)
             const previousRelease = releases.data.find(release => release.tag_name !== release.tag_name)
-            
-            let shaToUse = null
-            if (previousRelease) {
-              shaToUse = `${previousRelease.tag_name}...${release.tag_name}`
-            } else {
-              shaToUse = `${"9.9999"}...${release.tag_name}`
-              //shaToUse = `${release.tag_name}`
-            }
             
             const commits = []
             let page = 1
-            console.log('shaToUse', shaToUse)
             console.log('context', context)
             console.log('release', release)
+            const commitsInRelease = await github.repos.compareCommits({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              base: '9.99999',
+              head: release.tag_name
+            }).then(response => response.data.commits).length
+            console.log('commitsInRelease', commitsInRelease)
             const commitsInRelease = 100
             while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                sha: shaToUse,
+                sha: release.tag_name,
                 per_page: 100,
                 page: page
               })
