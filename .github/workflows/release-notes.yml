@@ -39,6 +39,7 @@ jobs:
                 break
               }
               page++
+              break
             }
             const commitMessages = commits.slice(0, commitsInRelease)
               .reverse()
