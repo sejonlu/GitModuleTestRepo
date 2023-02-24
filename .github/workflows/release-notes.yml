@@ -18,8 +18,8 @@ jobs:
             const release = context.payload.release
             const commits = []
             let page = 1
-            const maxCommits = release.total_commits_count
-            while (commits.length < maxCommits) {
+            const commitsInRelease = release.total_commits_count
+            while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -33,7 +33,7 @@ jobs:
               }
               page++
             }
-            const commitMessages = commits.slice(0, release.total_commits_count)
+            const commitMessages = commits.slice(0, commitsInRelease)
               .reverse()
               .map((commit) => {
                 const split = commit.commit.message.split("\n")
