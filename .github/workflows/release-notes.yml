@@ -29,7 +29,7 @@ jobs:
               return `${title}\n${description}\n`
             }).join("\n")
             const releaseDate = new Date(release.published_at).toISOString().slice(0, 10)
-            const newDescription = `${release.name}\n_${releaseDate}_\n${commitMessages}`
+            const newDescription = `_${releaseDate}_\n${commitMessages}`
             await github.repos.updateRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
