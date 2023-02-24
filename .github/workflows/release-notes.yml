@@ -24,7 +24,7 @@ jobs:
             let page = 1
             console.log('context', context)
             console.log('latestRelease', latestRelease)
-            const commitsInRelease = release.total_commits_count
+            const commitsInRelease = 100
             while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
