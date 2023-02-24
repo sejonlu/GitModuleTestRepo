@@ -23,13 +23,13 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo
             })
-            const previousRelease = releases.data.find(release => release.tag_name !== release.data.tag_name)
+            const previousRelease = releases.data.find(release => release.tag_name !== release.tag_name)
             
             let shaToUse = null
             if (previousRelease) {
-              shaToUse = `${previousRelease.tag_name}...${release.data.tag_name}`
+              shaToUse = `${previousRelease.tag_name}...${release.tag_name}`
             } else {
-              shaToUse = `${release.data.tag_name}`
+              shaToUse = `${release.tag_name}`
             }
             
             const commits = []
