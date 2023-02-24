@@ -16,14 +16,20 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const release = context.payload.release
+            const latestRelease = await github.repos.getLatestRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            })
             const commits = []
             let page = 1
+            console.log('context', context)
+            console.log('latestRelease', latestRelease)
             const commitsInRelease = release.total_commits_count
             while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                sha: release.target_commitish,
+                sha: latestRelease.data.tag_name,
                 per_page: 100,
                 page: page
               })
