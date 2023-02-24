@@ -22,7 +22,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo
             })
-            const previousRelease = releases.data.find(release => release.tag_name !== latestRelease.data.tag_name)
+            const previousRelease = releases.data.find(release => release.tag_name !== release.data.tag_name)
             
             let shaToUse = null
             if (previousRelease) {
@@ -35,7 +35,7 @@ jobs:
             let page = 1
             console.log('shaToUse', shaToUse)
             console.log('context', context)
-            console.log('latestRelease', latestRelease)
+            console.log('release', release)
             const commitsInRelease = 100
             while (commits.length < commitsInRelease) {
               const apiResponse = await github.repos.listCommits({
