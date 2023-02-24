@@ -26,13 +26,13 @@ jobs:
                 per_page: 100,
                 page: page
               })
-              commits.push(...apiResponse)
+              commits.push(...apiResponse.data)
               if (apiResponse.data.length === 0 || apiResponse.data.length < 100) {
                 break
               }
               page++
             }
-            const commitMessages = commits.data.slice(0, release.total_commits_count)
+            const commitMessages = commits.slice(0, release.total_commits_count)
               .reverse()
               .map((commit) => {
                 const split = commit.commit.message.split("\n")
