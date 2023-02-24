@@ -16,12 +16,21 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const release = context.payload.release
-            const commits = await github.repos.listCommits({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              sha: release.target_commitish,
-              per_page: 100
-            })
+            const commits = []
+            let page = 1
+            while (true) {
+              const apiResponse = await github.repos.listCommits({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                sha: release.target_commitish,
+                per_page: 100
+              })
+              commits.push(...apiResponse)
+              if (apiResponse.data.length === 0 || apiResponse.data.length < 100) {
+                break
+              }
+              page++
+            }
             const commitMessages = commits.data.slice(0, release.total_commits_count)
               .reverse()
               .map((commit) => {
