@@ -34,7 +34,7 @@ jobs:
                 page: page
               })
               console.log('apiResponse')
-              console.log(util.inspect(apiResponse, false, null, true /* enable colors */))
+              console.log(require('util').inspect(apiResponse, false, null, true /* enable colors */))
               commits.push(...apiResponse.data)
               if (apiResponse.data.length === 0 || apiResponse.data.length < 100) {
                 break
