@@ -29,7 +29,8 @@ jobs:
             if (previousRelease) {
               shaToUse = `${previousRelease.tag_name}...${release.tag_name}`
             } else {
-              shaToUse = `${release.tag_name}`
+              shaToUse = `${"9.9999"}...${release.tag_name}`
+              //shaToUse = `${release.tag_name}`
             }
             
             const commits = []
