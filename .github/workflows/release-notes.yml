@@ -16,12 +16,24 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const release = context.payload.release
-            const latestRelease = await github.repos.getLatestRelease({
+            
+            // Get the previous release for the current repository
+            const releases = await github.repos.listReleases({
               owner: context.repo.owner,
               repo: context.repo.repo
             })
+            const previousRelease = releases.data.find(release => release.tag_name !== latestRelease.data.tag_name)
+            
+            let shaToUse = null
+            if (previousRelease) {
+              shaToUse = `${previousRelease.tag_name}...${release.data.tag_name}`
+            } else {
+              shaToUse = `${release.data.tag_name}`
+            }
+            
             const commits = []
             let page = 1
+            console.log('shaToUse', shaToUse)
             console.log('context', context)
             console.log('latestRelease', latestRelease)
             const commitsInRelease = 100
@@ -29,12 +41,10 @@ jobs:
               const apiResponse = await github.repos.listCommits({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                sha: latestRelease.data.tag_name,
+                sha: shaToUse,
                 per_page: 100,
                 page: page
               })
-              console.log('apiResponse')
-              console.log(require('util').inspect(apiResponse, false, null, true /* enable colors */))
               commits.push(...apiResponse.data)
               if (apiResponse.data.length === 0 || apiResponse.data.length < 100) {
                 break

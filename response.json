@@ -1,210 +1,2135 @@
-context = {
-  payload: {
-    action: 'published',
-    release: {
-      assets: [],
-      assets_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/releases/93549101/assets',
-      author: [
-        Object
-      ],
-      body: '**Full Changelog**: https://github.com/sejonlu/GitModuleTestRepo/compare/2.0...3.0',
-      created_at: '2023-02-24T09:28:56Z',
-      draft: false,
-      html_url: 'https://github.com/sejonlu/GitModuleTestRepo/releases/tag/3.0',
-      id: 93549101,
-      name: '3.0',
-      node_id: 'RE_kwDOI-OJU84Fk3It',
-      prerelease: false,
-      published_at: '2023-02-24T09:30:27Z',
-      tag_name: '3.0',
-      tarball_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/tarball/3.0',
-      target_commitish: 'main',
-      upload_url: 'https://uploads.github.com/repos/sejonlu/GitModuleTestRepo/releases/93549101/assets{?name,label}',
-      url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/releases/93549101',
-      zipball_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/zipball/3.0'
+[
+  {
+    "sha": "9a5dee792e161576a462af2f4070ca21c3b6b778",
+    "node_id": "C_kwDOI-OJU9oAKDlhNWRlZTc5MmUxNjE1NzZhNDYyYWYyZjQwNzBjYTIxYzNiNmI3Nzg",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:49:30Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:49:30Z"
+      },
+      "message": "More updates",
+      "tree": {
+        "sha": "2a4580f50f058031a2c485a318028f7c7f05500c",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/2a4580f50f058031a2c485a318028f7c7f05500c"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/9a5dee792e161576a462af2f4070ca21c3b6b778",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
     },
-    repository: {
-      allow_forking: true,
-      archive_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/{archive_format}{/ref}',
-      archived: false,
-      assignees_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/assignees{/user}',
-      blobs_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/blobs{/sha}',
-      branches_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/branches{/branch}',
-      clone_url: 'https://github.com/sejonlu/GitModuleTestRepo.git',
-      collaborators_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/collaborators{/collaborator}',
-      comments_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/comments{/number}',
-      commits_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits{/sha}',
-      compare_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/compare/{base}...{head}',
-      contents_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/contents/{+path}',
-      contributors_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/contributors',
-      created_at: '2023-02-15T14:26:13Z',
-      default_branch: 'main',
-      deployments_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/deployments',
-      description: 'Test repository for testing Git Submodules.',
-      disabled: false,
-      downloads_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/downloads',
-      events_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/events',
-      fork: false,
-      forks: 0,
-      forks_count: 0,
-      forks_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/forks',
-      full_name: 'sejonlu/GitModuleTestRepo',
-      git_commits_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits{/sha}',
-      git_refs_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/refs{/sha}',
-      git_tags_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/tags{/sha}',
-      git_url: 'git://github.com/sejonlu/GitModuleTestRepo.git',
-      has_discussions: false,
-      has_downloads: true,
-      has_issues: true,
-      has_pages: false,
-      has_projects: true,
-      has_wiki: true,
-      homepage: null,
-      hooks_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/hooks',
-      html_url: 'https://github.com/sejonlu/GitModuleTestRepo',
-      id: 602114387,
-      is_template: false,
-      issue_comment_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/issues/comments{/number}',
-      issue_events_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/issues/events{/number}',
-      issues_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/issues{/number}',
-      keys_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/keys{/key_id}',
-      labels_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/labels{/name}',
-      language: 'JavaScript',
-      languages_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/languages',
-      license: null,
-      merges_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/merges',
-      milestones_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/milestones{/number}',
-      mirror_url: null,
-      name: 'GitModuleTestRepo',
-      node_id: 'R_kgDOI-OJUw',
-      notifications_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/notifications{?since,all,participating}',
-      open_issues: 0,
-      open_issues_count: 0,
-      owner: [
-        Object
-      ],
-      private: false,
-      pulls_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/pulls{/number}',
-      pushed_at: '2023-02-24T09:30:27Z',
-      releases_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/releases{/id}',
-      size: 12,
-      ssh_url: 'git@github.com:sejonlu/GitModuleTestRepo.git',
-      stargazers_count: 0,
-      stargazers_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/stargazers',
-      statuses_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/statuses/{sha}',
-      subscribers_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/subscribers',
-      subscription_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/subscription',
-      svn_url: 'https://github.com/sejonlu/GitModuleTestRepo',
-      tags_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/tags',
-      teams_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/teams',
-      topics: [],
-      trees_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees{/sha}',
-      updated_at: '2023-02-24T06:42:50Z',
-      url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo',
-      visibility: 'public',
-      watchers: 0,
-      watchers_count: 0,
-      web_commit_signoff_required: false
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/9a5dee792e161576a462af2f4070ca21c3b6b778",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/9a5dee792e161576a462af2f4070ca21c3b6b778",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/9a5dee792e161576a462af2f4070ca21c3b6b778/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
     },
-    sender: {
-      avatar_url: 'https://avatars.githubusercontent.com/u/98735839?v=4',
-      events_url: 'https://api.github.com/users/sejonlu/events{/privacy}',
-      followers_url: 'https://api.github.com/users/sejonlu/followers',
-      following_url: 'https://api.github.com/users/sejonlu/following{/other_user}',
-      gists_url: 'https://api.github.com/users/sejonlu/gists{/gist_id}',
-      gravatar_id: '',
-      html_url: 'https://github.com/sejonlu',
-      id: 98735839,
-      login: 'sejonlu',
-      node_id: 'U_kgDOBeKW3w',
-      organizations_url: 'https://api.github.com/users/sejonlu/orgs',
-      received_events_url: 'https://api.github.com/users/sejonlu/received_events',
-      repos_url: 'https://api.github.com/users/sejonlu/repos',
-      site_admin: false,
-      starred_url: 'https://api.github.com/users/sejonlu/starred{/owner}{/repo}',
-      subscriptions_url: 'https://api.github.com/users/sejonlu/subscriptions',
-      type: 'User',
-      url: 'https://api.github.com/users/sejonlu'
-    }
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c7fa039ef42a92cb93bfb915b668436b9329d5da",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c7fa039ef42a92cb93bfb915b668436b9329d5da",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/c7fa039ef42a92cb93bfb915b668436b9329d5da"
+      }
+    ]
   },
-  eventName: 'release',
-  sha: '0afa8fb41575f47f432039bfb826b4da540f9ead',
-  ref: 'refs/tags/3.0',
-  workflow: 'Generate Release Notes',
-  action: '__actions_github-script',
-  actor: 'sejonlu',
-  job: 'build',
-  runNumber: 5,
-  runId: 4261117542
-}
-latestRelease {
-  status: 200,
-  url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/releases/latest',
-  headers: {
-    'access-control-allow-origin': '*',
-    'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
-    'cache-control': 'private, max-age=60, s-maxage=60',
-    connection: 'close',
-    'content-encoding': 'gzip',
-    'content-security-policy': "default-src 'none'",
-    'content-type': 'application/json; charset=utf-8',
-    date: 'Fri, 24 Feb 2023 09:30:38 GMT',
-    etag: 'W/"14d2bb6f21e02fdd479613cec4745901042f3a49ab5622b280a346df09bc5274"',
-    'last-modified': 'Fri, 24 Feb 2023 09:30:27 GMT',
-    'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
-    server: 'GitHub.com',
-    'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
-    'transfer-encoding': 'chunked',
-    vary: 'Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With',
-    'x-content-type-options': 'nosniff',
-    'x-frame-options': 'deny',
-    'x-github-api-version-selected': '2022-11-28',
-    'x-github-media-type': 'github.v3',
-    'x-github-request-id': '0502:9C89:26D1892:4F96D91:63F883BE',
-    'x-ratelimit-limit': '1000',
-    'x-ratelimit-remaining': '998',
-    'x-ratelimit-reset': '1677232853',
-    'x-ratelimit-resource': 'core',
-    'x-ratelimit-used': '2',
-    'x-xss-protection': '0'
-  },
-  data: {
-    url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/releases/93549101',
-    assets_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/releases/93549101/assets',
-    upload_url: 'https://uploads.github.com/repos/sejonlu/GitModuleTestRepo/releases/93549101/assets{?name,label}',
-    html_url: 'https://github.com/sejonlu/GitModuleTestRepo/releases/tag/3.0',
-    id: 93549101,
-    author: {
-      login: 'sejonlu',
-      id: 98735839,
-      node_id: 'U_kgDOBeKW3w',
-      avatar_url: 'https://avatars.githubusercontent.com/u/98735839?v=4',
-      gravatar_id: '',
-      url: 'https://api.github.com/users/sejonlu',
-      html_url: 'https://github.com/sejonlu',
-      followers_url: 'https://api.github.com/users/sejonlu/followers',
-      following_url: 'https://api.github.com/users/sejonlu/following{/other_user}',
-      gists_url: 'https://api.github.com/users/sejonlu/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/sejonlu/starred{/owner}{/repo}',
-      subscriptions_url: 'https://api.github.com/users/sejonlu/subscriptions',
-      organizations_url: 'https://api.github.com/users/sejonlu/orgs',
-      repos_url: 'https://api.github.com/users/sejonlu/repos',
-      events_url: 'https://api.github.com/users/sejonlu/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/sejonlu/received_events',
-      type: 'User',
-      site_admin: false
+  {
+    "sha": "c7fa039ef42a92cb93bfb915b668436b9329d5da",
+    "node_id": "C_kwDOI-OJU9oAKGM3ZmEwMzllZjQyYTkyY2I5M2JmYjkxNWI2Njg0MzZiOTMyOWQ1ZGE",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:48:00Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:48:00Z"
+      },
+      "message": "More updates",
+      "tree": {
+        "sha": "5b3cc0384ca8d40adf459a2728ca94f0e2f03662",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/5b3cc0384ca8d40adf459a2728ca94f0e2f03662"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/c7fa039ef42a92cb93bfb915b668436b9329d5da",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
     },
-    node_id: 'RE_kwDOI-OJU84Fk3It',
-    tag_name: '3.0',
-    target_commitish: 'main',
-    name: '3.0',
-    draft: false,
-    prerelease: false,
-    created_at: '2023-02-24T09:28:56Z',
-    published_at: '2023-02-24T09:30:27Z',
-    assets: [],
-    tarball_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/tarball/3.0',
-    zipball_url: 'https://api.github.com/repos/sejonlu/GitModuleTestRepo/zipball/3.0',
-    body: '**Full Changelog**: https://github.com/sejonlu/GitModuleTestRepo/compare/2.0...3.0'
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c7fa039ef42a92cb93bfb915b668436b9329d5da",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/c7fa039ef42a92cb93bfb915b668436b9329d5da",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c7fa039ef42a92cb93bfb915b668436b9329d5da/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "31f717c06f2f046212ce5a572e23ff067d67f602",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/31f717c06f2f046212ce5a572e23ff067d67f602",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/31f717c06f2f046212ce5a572e23ff067d67f602"
+      }
+    ]
+  },
+  {
+    "sha": "31f717c06f2f046212ce5a572e23ff067d67f602",
+    "node_id": "C_kwDOI-OJU9oAKDMxZjcxN2MwNmYyZjA0NjIxMmNlNWE1NzJlMjNmZjA2N2Q2N2Y2MDI",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:45:09Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:45:09Z"
+      },
+      "message": "More updates",
+      "tree": {
+        "sha": "e38069432ed072cf1b38b45fc7789e239e3ca253",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/e38069432ed072cf1b38b45fc7789e239e3ca253"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/31f717c06f2f046212ce5a572e23ff067d67f602",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/31f717c06f2f046212ce5a572e23ff067d67f602",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/31f717c06f2f046212ce5a572e23ff067d67f602",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/31f717c06f2f046212ce5a572e23ff067d67f602/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de8c1b5c0d5c4285172be37d1a54e902270c8b95",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/de8c1b5c0d5c4285172be37d1a54e902270c8b95",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/de8c1b5c0d5c4285172be37d1a54e902270c8b95"
+      }
+    ]
+  },
+  {
+    "sha": "de8c1b5c0d5c4285172be37d1a54e902270c8b95",
+    "node_id": "C_kwDOI-OJU9oAKGRlOGMxYjVjMGQ1YzQyODUxNzJiZTM3ZDFhNTRlOTAyMjcwYzhiOTU",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:43:12Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:43:12Z"
+      },
+      "message": "More updates",
+      "tree": {
+        "sha": "b7af0176697927c8e069dfee9547d599ca3d947e",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/b7af0176697927c8e069dfee9547d599ca3d947e"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/de8c1b5c0d5c4285172be37d1a54e902270c8b95",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/de8c1b5c0d5c4285172be37d1a54e902270c8b95",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/de8c1b5c0d5c4285172be37d1a54e902270c8b95",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/de8c1b5c0d5c4285172be37d1a54e902270c8b95/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ee3a271119f9d7385c87c3000baee396ec2cf80e",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/ee3a271119f9d7385c87c3000baee396ec2cf80e",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/ee3a271119f9d7385c87c3000baee396ec2cf80e"
+      }
+    ]
+  },
+  {
+    "sha": "ee3a271119f9d7385c87c3000baee396ec2cf80e",
+    "node_id": "C_kwDOI-OJU9oAKGVlM2EyNzExMTlmOWQ3Mzg1Yzg3YzMwMDBiYWVlMzk2ZWMyY2Y4MGU",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:39:13Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:39:13Z"
+      },
+      "message": "More updates",
+      "tree": {
+        "sha": "eb7020d904aa9f8adabaa9033e430e400c19adc0",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/eb7020d904aa9f8adabaa9033e430e400c19adc0"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/ee3a271119f9d7385c87c3000baee396ec2cf80e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/ee3a271119f9d7385c87c3000baee396ec2cf80e",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/ee3a271119f9d7385c87c3000baee396ec2cf80e",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/ee3a271119f9d7385c87c3000baee396ec2cf80e/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0afa8fb41575f47f432039bfb826b4da540f9ead",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0afa8fb41575f47f432039bfb826b4da540f9ead",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/0afa8fb41575f47f432039bfb826b4da540f9ead"
+      }
+    ]
+  },
+  {
+    "sha": "0afa8fb41575f47f432039bfb826b4da540f9ead",
+    "node_id": "C_kwDOI-OJU9oAKDBhZmE4ZmI0MTU3NWY0N2Y0MzIwMzliZmI4MjZiNGRhNTQwZjllYWQ",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:28:56Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T09:28:56Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "bb0da58cb95292a68ae09240787fa1ac07093718",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/bb0da58cb95292a68ae09240787fa1ac07093718"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/0afa8fb41575f47f432039bfb826b4da540f9ead",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0afa8fb41575f47f432039bfb826b4da540f9ead",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/0afa8fb41575f47f432039bfb826b4da540f9ead",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0afa8fb41575f47f432039bfb826b4da540f9ead/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0812ba461c6bf904859610ce5a97363ef161f829",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0812ba461c6bf904859610ce5a97363ef161f829",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/0812ba461c6bf904859610ce5a97363ef161f829"
+      }
+    ]
+  },
+  {
+    "sha": "0812ba461c6bf904859610ce5a97363ef161f829",
+    "node_id": "C_kwDOI-OJU9oAKDA4MTJiYTQ2MWM2YmY5MDQ4NTk2MTBjZTVhOTczNjNlZjE2MWY4Mjk",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:56:24Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:56:24Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "fb9792987c2e5cd4cb99372d7b5e487205e13272",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/fb9792987c2e5cd4cb99372d7b5e487205e13272"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/0812ba461c6bf904859610ce5a97363ef161f829",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0812ba461c6bf904859610ce5a97363ef161f829",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/0812ba461c6bf904859610ce5a97363ef161f829",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0812ba461c6bf904859610ce5a97363ef161f829/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "12b34ac99913171c80a32ad63d9fb11d15044240",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/12b34ac99913171c80a32ad63d9fb11d15044240",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/12b34ac99913171c80a32ad63d9fb11d15044240"
+      }
+    ]
+  },
+  {
+    "sha": "12b34ac99913171c80a32ad63d9fb11d15044240",
+    "node_id": "C_kwDOI-OJU9oAKDEyYjM0YWM5OTkxMzE3MWM4MGEzMmFkNjNkOWZiMTFkMTUwNDQyNDA",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:55:29Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:55:29Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "b7900ecddadb02f269e2eb6391687d3b3862a4c2",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/b7900ecddadb02f269e2eb6391687d3b3862a4c2"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/12b34ac99913171c80a32ad63d9fb11d15044240",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/12b34ac99913171c80a32ad63d9fb11d15044240",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/12b34ac99913171c80a32ad63d9fb11d15044240",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/12b34ac99913171c80a32ad63d9fb11d15044240/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c92d4e9091766be27e91a251c738344faa51ec9b",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c92d4e9091766be27e91a251c738344faa51ec9b",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/c92d4e9091766be27e91a251c738344faa51ec9b"
+      }
+    ]
+  },
+  {
+    "sha": "c92d4e9091766be27e91a251c738344faa51ec9b",
+    "node_id": "C_kwDOI-OJU9oAKGM5MmQ0ZTkwOTE3NjZiZTI3ZTkxYTI1MWM3MzgzNDRmYWE1MWVjOWI",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:45:15Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:45:15Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "28a05f44968b4d6d9e18f2df94fd5421589dc912",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/28a05f44968b4d6d9e18f2df94fd5421589dc912"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/c92d4e9091766be27e91a251c738344faa51ec9b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c92d4e9091766be27e91a251c738344faa51ec9b",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/c92d4e9091766be27e91a251c738344faa51ec9b",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c92d4e9091766be27e91a251c738344faa51ec9b/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "33fe4be28e114fe211957a06b41e50bdeabf5283",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/33fe4be28e114fe211957a06b41e50bdeabf5283",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/33fe4be28e114fe211957a06b41e50bdeabf5283"
+      }
+    ]
+  },
+  {
+    "sha": "33fe4be28e114fe211957a06b41e50bdeabf5283",
+    "node_id": "C_kwDOI-OJU9oAKDMzZmU0YmUyOGUxMTRmZTIxMTk1N2EwNmI0MWU1MGJkZWFiZjUyODM",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:45:08Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:45:08Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "676c2d966daa56fb3a708fafc0e7d7549cc83bf7",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/676c2d966daa56fb3a708fafc0e7d7549cc83bf7"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/33fe4be28e114fe211957a06b41e50bdeabf5283",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/33fe4be28e114fe211957a06b41e50bdeabf5283",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/33fe4be28e114fe211957a06b41e50bdeabf5283",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/33fe4be28e114fe211957a06b41e50bdeabf5283/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98"
+      }
+    ]
+  },
+  {
+    "sha": "1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98",
+    "node_id": "C_kwDOI-OJU9oAKDFlYzhlMWZlNjdmYjVmZTdjODZjY2QyNTA5MDlmOThiMTE1ZjdiOTg",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:36:22Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:36:22Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "fdb96aab345fb482e5bf00df522d408afbef38af",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/fdb96aab345fb482e5bf00df522d408afbef38af"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/1ec8e1fe67fb5fe7c86ccd250909f98b115f7b98/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d"
+      }
+    ]
+  },
+  {
+    "sha": "383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d",
+    "node_id": "C_kwDOI-OJU9oAKDM4M2YxNmU0MmQ1NWY0YzNiOGVhM2FlN2Q2Y2RkYWE5NGE4NjJkMGQ",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:27:38Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:27:38Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "8b32f32db68a7925ec63fd84238ad3da609381ad",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/8b32f32db68a7925ec63fd84238ad3da609381ad"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/383f16e42d55f4c3b8ea3ae7d6cddaa94a862d0d/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f28384b43d44fb1eb8c17269625bf2a440079d61",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/f28384b43d44fb1eb8c17269625bf2a440079d61",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/f28384b43d44fb1eb8c17269625bf2a440079d61"
+      }
+    ]
+  },
+  {
+    "sha": "f28384b43d44fb1eb8c17269625bf2a440079d61",
+    "node_id": "C_kwDOI-OJU9oAKGYyODM4NGI0M2Q0NGZiMWViOGMxNzI2OTYyNWJmMmE0NDAwNzlkNjE",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:24:02Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:24:02Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "13f20e24eb8f854810dddbb354826737afc38079",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/13f20e24eb8f854810dddbb354826737afc38079"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/f28384b43d44fb1eb8c17269625bf2a440079d61",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/f28384b43d44fb1eb8c17269625bf2a440079d61",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/f28384b43d44fb1eb8c17269625bf2a440079d61",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/f28384b43d44fb1eb8c17269625bf2a440079d61/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e0e129cecc248b049bbc8ce5a75dbfd92802b3f0",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/e0e129cecc248b049bbc8ce5a75dbfd92802b3f0",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/e0e129cecc248b049bbc8ce5a75dbfd92802b3f0"
+      }
+    ]
+  },
+  {
+    "sha": "e0e129cecc248b049bbc8ce5a75dbfd92802b3f0",
+    "node_id": "C_kwDOI-OJU9oAKGUwZTEyOWNlY2MyNDhiMDQ5YmJjOGNlNWE3NWRiZmQ5MjgwMmIzZjA",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:16:17Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:16:17Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "fbe649adaac3584f22e7fbe00ebc44f8bbaa3837",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/fbe649adaac3584f22e7fbe00ebc44f8bbaa3837"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/e0e129cecc248b049bbc8ce5a75dbfd92802b3f0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/e0e129cecc248b049bbc8ce5a75dbfd92802b3f0",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/e0e129cecc248b049bbc8ce5a75dbfd92802b3f0",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/e0e129cecc248b049bbc8ce5a75dbfd92802b3f0/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0c534ed0a4b5ca1a889142d5665a885a0415cc42",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0c534ed0a4b5ca1a889142d5665a885a0415cc42",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/0c534ed0a4b5ca1a889142d5665a885a0415cc42"
+      }
+    ]
+  },
+  {
+    "sha": "0c534ed0a4b5ca1a889142d5665a885a0415cc42",
+    "node_id": "C_kwDOI-OJU9oAKDBjNTM0ZWQwYTRiNWNhMWE4ODkxNDJkNTY2NWE4ODVhMDQxNWNjNDI",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:14:47Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T07:14:47Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "e5010fc79c58dc3b28e37c89c73883a6feb3381b",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/e5010fc79c58dc3b28e37c89c73883a6feb3381b"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/0c534ed0a4b5ca1a889142d5665a885a0415cc42",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0c534ed0a4b5ca1a889142d5665a885a0415cc42",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/0c534ed0a4b5ca1a889142d5665a885a0415cc42",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/0c534ed0a4b5ca1a889142d5665a885a0415cc42/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "534594ba97fd175b297c43012ec9e7ea7ff26aef",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/534594ba97fd175b297c43012ec9e7ea7ff26aef",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/534594ba97fd175b297c43012ec9e7ea7ff26aef"
+      }
+    ]
+  },
+  {
+    "sha": "534594ba97fd175b297c43012ec9e7ea7ff26aef",
+    "node_id": "C_kwDOI-OJU9oAKDUzNDU5NGJhOTdmZDE3NWIyOTdjNDMwMTJlYzllN2VhN2ZmMjZhZWY",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T06:49:51Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T06:49:51Z"
+      },
+      "message": "Update release notes",
+      "tree": {
+        "sha": "9a9ff831cea26ca80b6a3ef82600efebf8968e94",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/9a9ff831cea26ca80b6a3ef82600efebf8968e94"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/534594ba97fd175b297c43012ec9e7ea7ff26aef",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/534594ba97fd175b297c43012ec9e7ea7ff26aef",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/534594ba97fd175b297c43012ec9e7ea7ff26aef",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/534594ba97fd175b297c43012ec9e7ea7ff26aef/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d9f33090972352e2e0cc1f74c89b3b5386ef6c33",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/d9f33090972352e2e0cc1f74c89b3b5386ef6c33",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/d9f33090972352e2e0cc1f74c89b3b5386ef6c33"
+      }
+    ]
+  },
+  {
+    "sha": "d9f33090972352e2e0cc1f74c89b3b5386ef6c33",
+    "node_id": "C_kwDOI-OJU9oAKGQ5ZjMzMDkwOTcyMzUyZTJlMGNjMWY3NGM4OWIzYjUzODZlZjZjMzM",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T06:44:37Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T06:44:37Z"
+      },
+      "message": "Sync release notes",
+      "tree": {
+        "sha": "bdb38a2962860cd3d13faf46b448b9ac77db9176",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/bdb38a2962860cd3d13faf46b448b9ac77db9176"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/d9f33090972352e2e0cc1f74c89b3b5386ef6c33",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/d9f33090972352e2e0cc1f74c89b3b5386ef6c33",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/d9f33090972352e2e0cc1f74c89b3b5386ef6c33",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/d9f33090972352e2e0cc1f74c89b3b5386ef6c33/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4981a7b6d404f3a0b604117ed04c5a02cac2bc3d",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/4981a7b6d404f3a0b604117ed04c5a02cac2bc3d",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/4981a7b6d404f3a0b604117ed04c5a02cac2bc3d"
+      }
+    ]
+  },
+  {
+    "sha": "4981a7b6d404f3a0b604117ed04c5a02cac2bc3d",
+    "node_id": "C_kwDOI-OJU9oAKDQ5ODFhN2I2ZDQwNGYzYTBiNjA0MTE3ZWQwNGM1YTAyY2FjMmJjM2Q",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T06:42:44Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-24T06:42:44Z"
+      },
+      "message": "Add testing playground",
+      "tree": {
+        "sha": "4fbcbc64b5262c22042c667731086c6f85954d79",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/4fbcbc64b5262c22042c667731086c6f85954d79"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/4981a7b6d404f3a0b604117ed04c5a02cac2bc3d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/4981a7b6d404f3a0b604117ed04c5a02cac2bc3d",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/4981a7b6d404f3a0b604117ed04c5a02cac2bc3d",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/4981a7b6d404f3a0b604117ed04c5a02cac2bc3d/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "08305b6561e01915d2753ff9d7b8852a9333fb54",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/08305b6561e01915d2753ff9d7b8852a9333fb54",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/08305b6561e01915d2753ff9d7b8852a9333fb54"
+      }
+    ]
+  },
+  {
+    "sha": "08305b6561e01915d2753ff9d7b8852a9333fb54",
+    "node_id": "C_kwDOI-OJU9oAKDA4MzA1YjY1NjFlMDE5MTVkMjc1M2ZmOWQ3Yjg4NTJhOTMzM2ZiNTQ",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-23T14:53:55Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-23T14:53:55Z"
+      },
+      "message": "Add yml",
+      "tree": {
+        "sha": "d34fc110dcadf49c22a1f8c23374e3a622bad0fb",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/d34fc110dcadf49c22a1f8c23374e3a622bad0fb"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/08305b6561e01915d2753ff9d7b8852a9333fb54",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/08305b6561e01915d2753ff9d7b8852a9333fb54",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/08305b6561e01915d2753ff9d7b8852a9333fb54",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/08305b6561e01915d2753ff9d7b8852a9333fb54/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "62eae1a854a3263121b0e34b87bbf9d21e866734",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/62eae1a854a3263121b0e34b87bbf9d21e866734",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/62eae1a854a3263121b0e34b87bbf9d21e866734"
+      }
+    ]
+  },
+  {
+    "sha": "62eae1a854a3263121b0e34b87bbf9d21e866734",
+    "node_id": "C_kwDOI-OJU9oAKDYyZWFlMWE4NTRhMzI2MzEyMWIwZTM0Yjg3YmJmOWQyMWU4NjY3MzQ",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-23T14:28:57Z"
+      },
+      "committer": {
+        "name": "Jonas Lundahl",
+        "email": "Jonas.Lundahl@pipechain.com",
+        "date": "2023-02-23T14:28:57Z"
+      },
+      "message": "Add yml",
+      "tree": {
+        "sha": "2b2299f6cc4120c1db16bff98c7db1d0d6c9f138",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/2b2299f6cc4120c1db16bff98c7db1d0d6c9f138"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/62eae1a854a3263121b0e34b87bbf9d21e866734",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/62eae1a854a3263121b0e34b87bbf9d21e866734",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/62eae1a854a3263121b0e34b87bbf9d21e866734",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/62eae1a854a3263121b0e34b87bbf9d21e866734/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f"
+      }
+    ]
+  },
+  {
+    "sha": "6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f",
+    "node_id": "C_kwDOI-OJU9oAKDZlOGE4NGE1YWRmNDY3Y2VmYWEyY2U0MWE0YTEwYzYyNGE2NGFkNGY",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-23T14:27:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-23T14:27:44Z"
+      },
+      "message": "Second fix (#2)\n\nFixed the thing.",
+      "tree": {
+        "sha": "92f0e0cf5233a715c049a906820a78838656e2e8",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/92f0e0cf5233a715c049a906820a78838656e2e8"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj93fgCRBK7hj4Ov3rIwAA/GgIAFQN64a7mACjlYHBIGIGpsBC\ncBZOayFJutj8dmif0Eoa8C5KMc3LgPy7r/fNl9hd/nT42zD2blJB025lZ3kDxDjq\n8whVfIfQNp9gzC5T/t1+dUS30laDr0huGvjAWGLotZfb0mVU1Ca0sZUEMgYgZ5VW\nSTURQ0upKuOvBnrU19F9E7rBmwODEkyRTipmQC9MD70F7imV1EZaxE0jrnyb6HbP\neq5tppl9AWj7DkUTSXB3oskWg6Y3iK5pP00BvhgOSRALHwjvynLTZay4zGq2t+C6\nHrytlbO/YHR1+zYY7+298FYUVs9QqWPsuhrdP6bmBbSEhWhvN7qKjf6CMwJk9OI=\n=f4Zw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 92f0e0cf5233a715c049a906820a78838656e2e8\nparent 6de647388c9fb77cf04c08f54e950a97bcef9c0a\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1677162464 +0100\ncommitter GitHub <noreply@github.com> 1677162464 +0100\n\nSecond fix (#2)\n\nFixed the thing."
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/6e8a84a5adf467cefaa2ce41a4a10c624a64ad4f/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6de647388c9fb77cf04c08f54e950a97bcef9c0a",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/6de647388c9fb77cf04c08f54e950a97bcef9c0a",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/6de647388c9fb77cf04c08f54e950a97bcef9c0a"
+      }
+    ]
+  },
+  {
+    "sha": "6de647388c9fb77cf04c08f54e950a97bcef9c0a",
+    "node_id": "C_kwDOI-OJU9oAKDZkZTY0NzM4OGM5ZmI3N2NmMDRjMDhmNTRlOTUwYTk3YmNlZjljMGE",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-23T14:26:58Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-23T14:26:58Z"
+      },
+      "message": "Update README.md\n\nFirst commit message.",
+      "tree": {
+        "sha": "8bdcf1d1000d36bfbf8bc4566e839a5bba916904",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/8bdcf1d1000d36bfbf8bc4566e839a5bba916904"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/6de647388c9fb77cf04c08f54e950a97bcef9c0a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj93eyCRBK7hj4Ov3rIwAAk7kIADsHsRK5MGN5gc7iFiRWHxgJ\nHAP0DJ/CWNt3MZYaH3Ap9EwD3y7MVNrLZqg3X//vyLntjPqFl9CMQ3zVr7GzWH5J\n2+erl86vFPPHYpT5A6tB2OECjjC4vu36KKBoGMPCSiC6QZy+lraf0PvmBEI4rNBb\n+nxm9Dnl7xmCcBBV1mZoaPV+jqvJXDUvOiOdh3M4CMBxBaV8JEGl0pOHnv9NbzY7\n0gVDupN9t+89srQ4m9HDB6xHOagOHfkpKy6jHPutgIn8HwhrXrnEQUcP7PII3bSy\n5ObxnaOmnY1i37Z9Zc+LnDMm+pJqbu8MKw/CUBXaklJe68kNBFD4TIOoYxNJzno=\n=VmXF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8bdcf1d1000d36bfbf8bc4566e839a5bba916904\nparent 48de2b5b55cf08f80fb72fcc08378c3da0c7735b\nparent 389898b4f8bfc16547e890a59c6aa8d7c04ee8b6\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1677162418 +0100\ncommitter GitHub <noreply@github.com> 1677162418 +0100\n\nUpdate README.md\n\nFirst commit message."
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/6de647388c9fb77cf04c08f54e950a97bcef9c0a",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/6de647388c9fb77cf04c08f54e950a97bcef9c0a",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/6de647388c9fb77cf04c08f54e950a97bcef9c0a/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/48de2b5b55cf08f80fb72fcc08378c3da0c7735b"
+      },
+      {
+        "sha": "389898b4f8bfc16547e890a59c6aa8d7c04ee8b6",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/389898b4f8bfc16547e890a59c6aa8d7c04ee8b6",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/389898b4f8bfc16547e890a59c6aa8d7c04ee8b6"
+      }
+    ]
+  },
+  {
+    "sha": "389898b4f8bfc16547e890a59c6aa8d7c04ee8b6",
+    "node_id": "C_kwDOI-OJU9oAKDM4OTg5OGI0ZjhiZmMxNjU0N2U4OTBhNTljNmFhOGQ3YzA0ZWU4YjY",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-23T14:26:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-23T14:26:27Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "8bdcf1d1000d36bfbf8bc4566e839a5bba916904",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/8bdcf1d1000d36bfbf8bc4566e839a5bba916904"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/389898b4f8bfc16547e890a59c6aa8d7c04ee8b6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj93eTCRBK7hj4Ov3rIwAAakwIAA/wo/uTLOaTcy7wb9duRmd4\nkKfZTgCyCjXsuhQKvzZoOH6BMVr2woIPfUexEtffqYhu61Z1ZyZijV44BllkQtjh\n90Nu5s13ps1VQoQXG9RdBI8z9QLIYeizjXEEdSgOwlYmV5lqL7zRGV/YInOwtKg0\nIpTqFifjrOy7WlmyfeOrB1isnLezuRtthhQUIM8qt+fDIvJWwbw/rzAijAOjcIPo\n1M3xqRCqQ2jm+cvTCA1Rvkjnna7yHPTyMNFMbOuyk0oIoL/lBH8m5pWPoc60Gc8G\n7r5YoFO3onSpaBGy3OOXWbu2z2pweGtRb0Bnt7ip+6fbxT/Ue5pCUV25gP//Xfc=\n=fmvT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8bdcf1d1000d36bfbf8bc4566e839a5bba916904\nparent 48de2b5b55cf08f80fb72fcc08378c3da0c7735b\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1677162387 +0100\ncommitter GitHub <noreply@github.com> 1677162387 +0100\n\nUpdate README.md"
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/389898b4f8bfc16547e890a59c6aa8d7c04ee8b6",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/389898b4f8bfc16547e890a59c6aa8d7c04ee8b6",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/389898b4f8bfc16547e890a59c6aa8d7c04ee8b6/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/48de2b5b55cf08f80fb72fcc08378c3da0c7735b"
+      }
+    ]
+  },
+  {
+    "sha": "48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+    "node_id": "C_kwDOI-OJU9oAKDQ4ZGUyYjViNTVjZjA4ZjgwZmI3MmZjYzA4Mzc4YzNkYTBjNzczNWI",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-23T14:25:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-23T14:25:40Z"
+      },
+      "message": "Create README.md",
+      "tree": {
+        "sha": "b263c292e27cab705bc6d04ed2ed66c35dde7825",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/b263c292e27cab705bc6d04ed2ed66c35dde7825"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj93dkCRBK7hj4Ov3rIwAATVsIAC54VemdKDVYEhFb0Zwl9S3X\n7niJia2CxIQ2IlkXSjsYhTXVbj/SWX10dD6sBxg9dt2crlmWfvldThXSgG0JisPi\nC93WpWS+xzLGtyMullEIxea+R2Z9+Q7xQI4yHVu+9/YIMF72ltXjDl5gOfKyV2Om\n2ahu/6QxudH0uvJT/FfX7t92jcZ9A2BJBZXFbl5Ka0s41d5GL9lJ0Nfip3ks8vK5\n5Evfi03oAsfihqP8BJkS4eEIKkjVjMIrlW8wun4QV1nywSthEBJX6dCPrGu6XzMu\nhrhJjXCT1MjVvmQFBq38rLnL6Y3x9tyGufCYEMbhB3S7DWnb34IKGuWI9kpgP54=\n=1+Ot\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b263c292e27cab705bc6d04ed2ed66c35dde7825\nparent e553f64c0598a1444bd45101de857fbd0f08b2d4\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1677162340 +0100\ncommitter GitHub <noreply@github.com> 1677162340 +0100\n\nCreate README.md"
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/48de2b5b55cf08f80fb72fcc08378c3da0c7735b",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/48de2b5b55cf08f80fb72fcc08378c3da0c7735b/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e553f64c0598a1444bd45101de857fbd0f08b2d4",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/e553f64c0598a1444bd45101de857fbd0f08b2d4",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/e553f64c0598a1444bd45101de857fbd0f08b2d4"
+      }
+    ]
+  },
+  {
+    "sha": "e553f64c0598a1444bd45101de857fbd0f08b2d4",
+    "node_id": "C_kwDOI-OJU9oAKGU1NTNmNjRjMDU5OGExNDQ0YmQ0NTEwMWRlODU3ZmJkMGYwOGIyZDQ",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-15T14:33:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-15T14:33:42Z"
+      },
+      "message": "Update my_file.txt",
+      "tree": {
+        "sha": "e30e93b1cbdaca4157908abab2b5dbecb65aeb2d",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/e30e93b1cbdaca4157908abab2b5dbecb65aeb2d"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/e553f64c0598a1444bd45101de857fbd0f08b2d4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj7O1GCRBK7hj4Ov3rIwAAEBoIAIwUdTjtZ3bK6y5/1xocCyyw\njl4WDdhmCJr/uNHOd3cC1I+E3Z1xB4efPN5ZXpiW5yUtJgwqKmWTmQKoBBQ+dxKs\nIo4sEJIvATwhWeeUYUfvSZkhzQeKMEAM73dZr6sq8ii3hkxrtDrXWO5gs/FPUDOF\nt9Ctiz/fsa7P98D4wI5lnYNAdYl7deDu7PU7sB003Mhv9k7Wap9YdkGqi8sWu2jA\nlaeET+/2Zxf+6QQKwXVti4G0WUtcIty6tBQJLLGaX4GmMKqCJbYQeEVvGSgy32Yp\nEDoZPZvFoYd2XH85wNA65vIaNuxNKjdSwR/cgar2Ymious/3hXpQpT6jtbHIvDU=\n=DrpW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e30e93b1cbdaca4157908abab2b5dbecb65aeb2d\nparent 5e18512b176cb96f5083470fa95618e6febdb266\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1676471622 +0100\ncommitter GitHub <noreply@github.com> 1676471622 +0100\n\nUpdate my_file.txt"
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/e553f64c0598a1444bd45101de857fbd0f08b2d4",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/e553f64c0598a1444bd45101de857fbd0f08b2d4",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/e553f64c0598a1444bd45101de857fbd0f08b2d4/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e18512b176cb96f5083470fa95618e6febdb266",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/5e18512b176cb96f5083470fa95618e6febdb266",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/5e18512b176cb96f5083470fa95618e6febdb266"
+      }
+    ]
+  },
+  {
+    "sha": "5e18512b176cb96f5083470fa95618e6febdb266",
+    "node_id": "C_kwDOI-OJU9oAKDVlMTg1MTJiMTc2Y2I5NmY1MDgzNDcwZmE5NTYxOGU2ZmViZGIyNjY",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-15T14:29:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-15T14:29:37Z"
+      },
+      "message": "Update my_file.txt",
+      "tree": {
+        "sha": "ddaffdf46f51c64f9dba788cd6bb193055d4a9b4",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/ddaffdf46f51c64f9dba788cd6bb193055d4a9b4"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/5e18512b176cb96f5083470fa95618e6febdb266",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj7OxRCRBK7hj4Ov3rIwAAkzYIABcWsazGodB48WPkweBcaZ+m\nREd5c5y7OMHWLEpjIp87Gw1Cj3EmguTQuIx5vH14qa8jyfvaGlxqaDCoSxEDYB55\nQ664jLI0J7Xtkkdf8bDMwPdiHRrjNQ2pw6PU56V26YdcvV+vsHlaT4zOKAslzcc0\nHOHyvCIYHvBrky/N05emFP1P8rQ2g4QgbZ920alXIvJjPO7MYboDqxpKqyg8U7ri\nk+UrylBjzIys0Swvt15QCM18BHnXdJGU+Il6uXfD0t/UUKb2KHrctRAbGs0RefaZ\nHTOGkcK65nijjCIu+88sB0yfgRa2zBifM+Omm9GJnt6K/LH8QrIYS6eZ94GkEdk=\n=nreT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ddaffdf46f51c64f9dba788cd6bb193055d4a9b4\nparent c00c8ee959ed22235044b051d22f9ca2ea0c9d58\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1676471377 +0100\ncommitter GitHub <noreply@github.com> 1676471377 +0100\n\nUpdate my_file.txt"
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/5e18512b176cb96f5083470fa95618e6febdb266",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/5e18512b176cb96f5083470fa95618e6febdb266",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/5e18512b176cb96f5083470fa95618e6febdb266/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c00c8ee959ed22235044b051d22f9ca2ea0c9d58",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c00c8ee959ed22235044b051d22f9ca2ea0c9d58",
+        "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/c00c8ee959ed22235044b051d22f9ca2ea0c9d58"
+      }
+    ]
+  },
+  {
+    "sha": "c00c8ee959ed22235044b051d22f9ca2ea0c9d58",
+    "node_id": "C_kwDOI-OJU9oAKGMwMGM4ZWU5NTllZDIyMjM1MDQ0YjA1MWQyMmY5Y2EyZWEwYzlkNTg",
+    "commit": {
+      "author": {
+        "name": "Jonas Lundahl",
+        "email": "98735839+sejonlu@users.noreply.github.com",
+        "date": "2023-02-15T14:26:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-15T14:26:56Z"
+      },
+      "message": "Create my_file.txt",
+      "tree": {
+        "sha": "a7e739ff6dff247114f22e69b3ddcf2c52cbb694",
+        "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/trees/a7e739ff6dff247114f22e69b3ddcf2c52cbb694"
+      },
+      "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/git/commits/c00c8ee959ed22235044b051d22f9ca2ea0c9d58",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj7OuwCRBK7hj4Ov3rIwAAVZMIAGGovBkTuCGOOu4TEg+Uumdl\nPb6LFEMFbe0bqmMIvY2jaHL4vH/rQqrAND5VW9uaasHeghFBtq2TaNu4jNgp4Koh\n9T58m5zBagX2S6yd84gUWEVmz+rHdhsVUaUSwM/i2E71f0JoUoMJ/xRbEsfJ81Vi\nCsxGzZwg+9yygNX5maaq7UFEHarF5uWcV7q378RmsirvwzMS+UD43ewW2WPV5Uwz\nQTa0mtNT3BiCEN8RWN9QYHpWeEASA40MpndMCLrXTVZOOgpelS4+ZRF4n5Kzm5uS\nmz0sGhkznezfw8KdBvqIhaB+PLM86IEWPE+bVNNg3FROpGZwtWUkkz5Sd54ncDc=\n=O+er\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a7e739ff6dff247114f22e69b3ddcf2c52cbb694\nauthor Jonas Lundahl <98735839+sejonlu@users.noreply.github.com> 1676471216 +0100\ncommitter GitHub <noreply@github.com> 1676471216 +0100\n\nCreate my_file.txt"
+      }
+    },
+    "url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c00c8ee959ed22235044b051d22f9ca2ea0c9d58",
+    "html_url": "https://github.com/sejonlu/GitModuleTestRepo/commit/c00c8ee959ed22235044b051d22f9ca2ea0c9d58",
+    "comments_url": "https://api.github.com/repos/sejonlu/GitModuleTestRepo/commits/c00c8ee959ed22235044b051d22f9ca2ea0c9d58/comments",
+    "author": {
+      "login": "sejonlu",
+      "id": 98735839,
+      "node_id": "U_kgDOBeKW3w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98735839?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sejonlu",
+      "html_url": "https://github.com/sejonlu",
+      "followers_url": "https://api.github.com/users/sejonlu/followers",
+      "following_url": "https://api.github.com/users/sejonlu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sejonlu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sejonlu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sejonlu/subscriptions",
+      "organizations_url": "https://api.github.com/users/sejonlu/orgs",
+      "repos_url": "https://api.github.com/users/sejonlu/repos",
+      "events_url": "https://api.github.com/users/sejonlu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sejonlu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+    ]
   }
-}
+]
