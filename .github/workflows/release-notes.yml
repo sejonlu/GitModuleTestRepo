@@ -33,6 +33,7 @@ jobs:
                 per_page: 100,
                 page: page
               })
+              console.log('apiResponse', apiResponse)
               commits.push(...apiResponse.data)
               if (apiResponse.data.length === 0 || apiResponse.data.length < 100) {
                 break
