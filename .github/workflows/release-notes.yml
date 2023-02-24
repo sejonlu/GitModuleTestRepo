@@ -16,6 +16,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const release = context.payload.release
+            console.log('release', release)
             
             // Get the previous release for the current repository
             const releases = await github.repos.listReleases({
